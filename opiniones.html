@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Opiniones sobre NetSecure Spain: Experiencias de nuestros clientes y espacio para dejar tu comentario.">
+    <title>Opiniones - NetSecure Spain</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <img src="image/icons8-shield-100.png "alt="Logotipo de NetSecure Spain">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="opiniones.html">Opiniones</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de opiniones -->
+    <section id="opiniones" class="opiniones" style="background: url('image/fondoopiniones.jpg') no-repeat center center/cover;">
+        <h1>Lo que opinan nuestros clientes</h1> 
+
+        <!-- Opiniones existentes -->
+        <div class="opinion">
+            <p>"NetSecure Spain ha mejorado la seguridad de nuestra red y ahora trabajamos sin preocupaciones."</p>
+            <p>- Ana López, Directora de Tecnología en TecnoSoluciones</p>
+        </div>
+        <div class="opinion">
+            <p>"La atención personalizada y su rapidez para resolver problemas nos impresionó mucho."</p>
+            <p>- Carlos Fernández, CEO de PymeDigital</p>
+        </div>
+        <div class="opinion">
+            <p>"Gracias a NetSecure Spain, nuestra empresa está protegida contra ciberamenazas y nuestra conectividad ha mejorado notablemente."</p>
+            <p>- Marta Ruiz, Gerente en Innovaciones Industriales</p>
+        </div>
+
+        <!-- Formulario para dejar un comentario -->
+        <div class="formulario-opinion">
+            <h2>Déjanos tu opinión</h2>
+            <form action="procesar_comentario.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe tu opinión aquí..." required></textarea>
+
+                <button type="submit" class="boton">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 NetSecure Spain. Todos los derechos reservados.</p>
+        <p>Síguenos en <a href="https://www.instagram.com/net_secure_spain/?igsh=MXFuaTl5bmJ0d2VjMA%3D%3D#">Instagram</a></p>
+        <p><a href="opiniones.html">Volver arriba</a></p>
+    </footer>
+</body>
+</html>
